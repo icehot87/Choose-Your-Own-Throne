@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37c09238279efdf42afcf1bef50e692f, type: 3}
+  m_Name: Scene 1
+  m_EditorClassIdentifier: 
+  storyText: 'This dust storm, uh! The ravaging wind is blocking my vision! I am
+    not even sure if this is the correct path to Eden. Peh! Stupid sand getting in
+    my mouth, I should have brought my visors. My legs are getting sore walking against
+    this storm on the sand but master Brinks will be waiting for the asset to be
+    delivered, I cannot fail him. But I am tired, what if I faint! Wait, is that
+    a cave? Maybe I can rest a little bit.
+
+
+    Should I rest?
+
+
+    1. Okay, let
+    me take a break
+
+    2. No, mission is more important
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: 56371d355400aae4fabb6926cc09a9c7, type: 2}
+  - {fileID: 11400000, guid: 7ada9156f2eaf7e499e0871dbacd950c, type: 2}

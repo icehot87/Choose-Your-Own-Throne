@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37c09238279efdf42afcf1bef50e692f, type: 3}
+  m_Name: Scene 2.2
+  m_EditorClassIdentifier: 
+  storyText: "Uh, I should have rested in the cave, I am feeling dizzy already.\r\n*10
+    mins later*\r\nCan't keep up! I am... I can't..... *fainted*\r\n *Wakes up coughing
+    and covered in sand*\r\n\rThe dust storm settled, how long have I been passed
+    out. Shit! Shit! Shit! I should hurry, else he would decimate me. Wait, I could
+    just not go to him to save my life, but..... this asset! This is more than me,
+    it's for the survival of the whole kind.\r\n\r\nWhat should I do?\r\n\r\n1. Get
+    the asset to master Brinks, who could kill me for not delivering on time.\r\n2.
+    Save my life by not going to Eden."
+  nextStates:
+  - {fileID: 11400000, guid: 2aae2ea91cbb8b446b66a8d05bd38e8d, type: 2}
+  - {fileID: 11400000, guid: 0f65bb82881418746b5f098a39f6c1ee, type: 2}
