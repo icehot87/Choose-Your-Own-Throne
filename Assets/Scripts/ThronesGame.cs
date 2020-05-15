@@ -28,17 +28,17 @@ public class ThronesGame : MonoBehaviour
     private void ManageState()
     {
         var nextStates = state.GetNextStates();
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        for (int index = 0; index < nextStates.Length; index++)
         {
-            state = nextStates[0];
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            state = nextStates[1];
-        }
-        else if (Input.GetKeyDown(KeyCode.Q))
-        {
-            state = startingState;
+            if (Input.GetKeyDown(KeyCode.Alpha1 + index))
+            {
+                state = nextStates[index];
+            }
+            else if (Input.GetKeyDown(KeyCode.Q))
+            {
+                state = startingState;
+                break;
+            }
         }
         textComponent.text = state.GetStateStory();
     }
